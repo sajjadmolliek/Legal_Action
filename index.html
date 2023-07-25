@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Legal_Action</title>
+        <!-- Daisy UI and Tailwind CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Google Font poppins Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- fav Icon Link -->
+        <link rel="shortcut icon" href="./images/education.png" type="image/x-icon">
+        <!-- Custom Colors Tailwind-->
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    'p_clr':'#777',
+                    'bg':'gradient-to-l from-[#F00] to-[#FF8938]'
+                  }
+                }
+              }
+            }
+          </script>
+    </head>
+<body>
+    <!-- Start Header Section -->
+    <header>
+        <!-- Start navbar Section -->
+        <nav class="flex justify-center">
+            <div class="navbar bg-base-100">
+                <div class="navbar justify-center">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu text-[#707070] font-semibold menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Cases</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <img  src="./images/logo2.png" alt="Logo">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu text-[#707070] font-medium menu-horizontal px-1">
+                    <li class="mt-[5px]"><a>Home</a></li>
+                      <li><a>Services <span class="arrow mt-[5px] -ml-[10px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg></span></a></li>
+                      <li><a>Cases<span class="arrow mt-[5px] -ml-[10px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg></span></a></li>
+                      <li><a>Blog<span class="arrow mt-[5px] -ml-[10px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg></span></a></li>
+                      <li><a>Contact Us<span class="arrow mt-[5px] -ml-[10px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg></span></a></li>
+                  </ul>
+                </div>
+                <div class="navbar justify-center">
+                  <a class="btn text-white bg-[#B68C5A]">Free Consultation</a>
+                </div>
+              </div>
+        </nav>
+        <!-- End navbar Section -->
+
+
+        <!-- Start Section_1 -->
+        <section class="section_1 flex justify-center my-20">
+            <div class="w-[77%] " style="background-image: url('./images/banner.png');">
+                <div class="bg-opacity-70">
+                    
+                </div>
+                <div class=" text-center flex justify-center  bg-opacity-40 py-32 bg-black text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-white text-2xl lg:text-6xl font-bold">We Provide Effective <br>Legal Solutions</h1>
+                    <p class="mb-5 max-w-xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div>
+                        <input class="mb-5 md:mb-0 md:w-[20rem] p-[10px] rounded-lg mr-[20px]" type="text" placeholder="Search your services">
+                        <button class="btn bg-[#B68C5A] border-0 text-white">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- End Section_1 -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Main Section -->
+    <main>
+        <!-- Start Section_3 -->
+        <section class="section_3">
+            <h1>The Legal Practice Area</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </section>
+        <!-- End Section_3 -->
+    </main>
+    <!-- End Main Section -->
+</body>
+</html>
